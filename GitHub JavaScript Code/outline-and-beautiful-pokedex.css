@@ -1,0 +1,23 @@
+div {
+    text-align: center;
+    color: #000000;
+}
+.container{
+    display: flex;
+    flex: wrap;
+    flex-direction:row;
+}
+.specimenName{
+    flex-basis: 50%;
+}
+.heightAndWeight{
+     text-align: left;
+
+}
+.break{
+    flex-basis: 1000%;
+     width: 0;
+}
+.photoID{
+    flex-basis: 50%;
+}
