@@ -1,23 +1,54 @@
-div {
-    text-align: center;
-    color: #000000;
+.title{
+    background-color: red;
+    color: white;
 }
-.container{
+.heading1{
+    width: fit-content;
+}
+div {
+    color: #FFFFFF;
+    background-color: #808080;
+    
+}
+.total-sum{
+    display:flex;
+    max-width: fit-content;
+    max-height: 150px;
+    flex-direction: row;
+    flex: wrap;
+}
+.left-container{
+    max-width: 300px;
+    max-height: 200px;
+    /* style: "overflow-y:scroll"; */
+} 
+.left-container::-webkit-scrollbar-thumb{
+    color:red
+}
+.left-container::-webkit-scrollbar-track-piece{
+    color:white;
+}
+.right-container-top{
     display: flex;
     flex: wrap;
     flex-direction:row;
+    max-width: 400px;
+}
+.right-container{
+    display: flex;
+    flex-direction:column;
 }
 .specimenName{
-    flex-basis: 50%;
+    font-family: Lucida Console;
 }
-.heightAndWeight{
+.numberTypeHeightAndWeight{
      text-align: left;
-
+     font-family: Lucida Console;
 }
 .break{
-    flex-basis: 1000%;
+    flex-basis: 100%;
      width: 0;
 }
 .photoID{
-    flex-basis: 50%;
+    align-items: right;
 }
