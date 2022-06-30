@@ -1,44 +1,23 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="outline-and-beautiful-pokedex.css" />
-  </head>
-  <body>
-    <div class="heading1">
+
+<head>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="outline-and-beautiful-pokedex.css" />
+</head>
+
+<body>
+  <div class="heading1">
     <h1 class="title">"Is that a shiny?" Find out!</h1>
-    </div>
+  </div>
   <div class="total-sum">
     <div class="left-container" style="overflow-y:scroll;">
-      <p>Here's where I'll put other things! Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+      <ol id="pokeNameList" onclick="pokedexEntry(event.target.innerText)">
 
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        
-        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem i</p>
+      </ol>
     </div>
+
     <div class="right-container">
       <div class="right-container-top">
         <div class="specimenName">
@@ -49,17 +28,18 @@
           <img id="shinyPhoto" src="" width="100" /><img />
         </div>
         <!-- <div class="break"></div> -->
-        </div> 
-        <div <div class="container">
-          <div class="numberTypeHeightAndWeight">
-            <span id="speciesNumber">NumberPlaceholder</span>
-            <span id="speciesType">TypePlaceholder</span><br />
-            <span id="height">HeightPlaceholder</span><br />
-            <span id="weight">WeightPalceholder</span>
-          </div>
+      </div>
+      <div class="container">
+        <div class="numberTypeHeightAndWeight">
+          <span id="speciesNumber">NumberPlaceholder</span>
+          <span id="speciesType">TypePlaceholder</span><br />
+          <span id="height">HeightPlaceholder</span><br />
+          <span id="weight">WeightPalceholder</span>
         </div>
       </div>
     </div>
   </div>
+  </div>
 </body>
+
 </html>
