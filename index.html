@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="heading1">
+    <h1 class="title">"Is that a shiny?" Find out!</h1>
+  </div>
+  <div class="total-sum">
+    <div class="left-container" style="overflow-y:scroll;">
+      <ol id="pokeNameList" onclick="pokedexEntry(event.target.innerText)">
+
+      </ol>
+    </div>
+
+    <div class="right-container">
+      <div class="right-container-top">
+        <div class="specimenName">
+          <h1 id="speciesName">speciesNamePlaceholder</h1>
+        </div>
+        <div class="photoID">
+          <img id="photo" src="" width="100" /><img />
+          <img id="shinyPhoto" src="" width="100" /><img />
+        </div>
+        <!-- <div class="break"></div> -->
+      </div>
+      <div class="container">
+        <div class="numberTypeHeightAndWeight">
+          <span id="speciesNumber">NumberPlaceholder</span>
+          <span id="speciesType">TypePlaceholder</span><br />
+          <span id="height">HeightPlaceholder</span><br />
+          <span id="weight">WeightPalceholder</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
